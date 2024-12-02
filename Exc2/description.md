@@ -52,6 +52,3 @@ Events:
   Normal  ScalingReplicaSet  5m38s  deployment-controller  Scaled up replica set scaletestapp-7cfcb7b885 to 2 from 1
   Normal  ScalingReplicaSet  4m38s  deployment-controller  Scaled up replica set scaletestapp-7cfcb7b885 to 3 from 2
 ```
-
-Видим по событиям, что сначала лимит реплик был поднят до трёх, а через 2 минуты до пяти. В это время продолжалась
-работа Locust с RPS 312.
